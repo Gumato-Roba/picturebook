@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".PictureBookTwo">
+
+  <ImageButton
+      android:id="@+id/imgFormen"
+      android:layout_width="359dp"
+      android:layout_height="234dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.062"
+      app:srcCompat="@drawable/formen" />
+
+  <TextView
+      android:id="@+id/tvContent1"
+      android:layout_width="307dp"
+      android:layout_height="46dp"
+      android:text="Braidd hair for men"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imgFormen"
+      app:layout_constraintVertical_bias="0.183" />
+
+  <Button
+      android:id="@+id/btnPrevious1"
+      android:layout_width="126dp"
+      android:layout_height="64dp"
+      android:backgroundTint="#9C27B0"
+      android:text="Previous"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.207"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.878" />
+
+  <Button
+      android:id="@+id/btnNext1"
+      android:layout_width="108dp"
+      android:layout_height="71dp"
+      android:backgroundTint="#877B13"
+      android:text="Next"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.828"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.887" />
+</androidx.constraintlayout.widget.ConstraintLayout>
